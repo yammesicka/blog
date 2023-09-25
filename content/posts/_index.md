@@ -1,0 +1,4 @@
+---
+title: "רשומות"
+layout: "posts"
+---

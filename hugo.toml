@@ -1,0 +1,140 @@
+baseURL = 'https://mesicka.com/'
+languageCode = 'he-IL'
+title = 'שיט טכנולוגי'
+theme = 'PaperMod'
+defaultContentLanguage = 'he'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+# googleAnalytics = "UA-123-45"
+
+[languages]
+  [languages.en]
+    disabled = true
+
+  [languages.he]
+    contentDir = 'content/posts'
+    disabled = false
+    languageCode = 'he-IL'
+    languageDirection = 'rtl'
+    weight = 1
+    languageName = "עברית"
+
+  [languages.he.taxonomies]
+    category = "categories"
+    tag = "tags"
+
+  [[languages.he.menu.main]]
+  name = "ארכיון"
+  url = "archives/"
+  weight = 5
+
+  [[languages.he.menu.main]]
+  name = "חיפוש"
+  url = "search/"
+  weight = 10
+
+  [[languages.he.menu.main]]
+  name = "תגיות"
+  identifier = "tags"
+  url = "/tags/"
+  weight = 15
+
+  [[languages.he.menu.main]]
+  name = "קטגוריות"
+  identifier = "categories"
+  url = "/categories/"
+  weight = 20
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "שיט טכנולוגי"
+description = "טכנולוגיה ואבטחה מזווית אחרת"
+keywords = ["בלוג", "חדשות", "טכנולוגיה", "אבטחת מידע"]
+author = "ים מסיקה"
+DateFormat = "2006-01-02"
+defaultTheme = "auto"
+disableThemeToggle = false
+
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableScrollToTop = false
+ShowToc= true
+comments = false
+hidemeta = false
+hideSummary = false
+tocopen = false
+
+[params.label]
+text = "שיט טכנולוגי"
+icon = "/apple-touch-icon.png"
+iconHeight = 35
+
+[params.homeInfoParams]
+Title = "היי שלום"
+Content = "אני כותב בעוד פלטפורמות!"
+
+[[params.socialIcons]]
+name = "stackoverflow"
+url = "https://stackoverflow.com/users/1058671/yam-mesicka"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/mesicka"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/yammesicka/"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/yammesicka"
+
+[[params.socialIcons]]
+name = "facebook"
+url = "https://facebook.com/yam.mesicka/"
+
+[[params.socialIcons]]
+name = "telegram"
+url = "https://t.me/shiftech2"
+
+[params.cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
+
+[params.editPost]
+URL = "https://github.com/yammesicka/blog/tree/blog/content"
+Text = "הציעו שינויים"
+appendFilePath = true
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+pygmentsUseClasses = true
+
+[markup.highlight]
+noClasses = false

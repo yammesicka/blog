@@ -1,0 +1,7 @@
+[read_time]
+one = "דקת קריאה"
+other = "{{ .Count }} דקות קריאה"
+
+[words]
+one = "מילה אחת"
+other = "{{ .Count }} מילים"

@@ -1,0 +1,4 @@
+---
+title: "קטגוריות"
+layout: "categories"
+---
