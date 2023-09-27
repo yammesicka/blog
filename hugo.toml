@@ -121,7 +121,7 @@ hiddenInList = true
 hiddenInSingle = true
 
 [params.editPost]
-URL = "https://github.com/yammesicka/blog/tree/blog/content"
+URL = "https://github.com/yammesicka/blog/tree/master/content"
 Text = "הציעו שינויים"
 appendFilePath = true
 
