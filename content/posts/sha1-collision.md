@@ -21,7 +21,7 @@ direction: rtl
 ---
 אז שוב הגיע היום הזה בחודש בו כל החברים החנונים שלכם מפרסמים פוסט בשפה שלהם, הפעם משהו על "קוליז'ן בשה וואן", שנשמע כמו מנה מתפריט תיירים של מסעדה יפנית. מה זה אומר בכלל, ולמה זה כזה חשוב?
 
-נסו להיזכר במספר תעודת הזהות שלכם. זוכרים שיש שם איזושהי "ספרת ביקורת"? אי פעם תהיתם מה זה אומר? Breaking news, למי שחי בחלל: זו ספרה שנמצאת שם רק כדי לוודא שכל שאר הספרות הוזנו נכון. אם תשנו ספרה אחת בתעודת הזהות, גם ספרת הביקורת תשתנה. אפילו אפשר [לחשב אותה די בקלות][2]!
+נסו להיזכר במספר תעודת הזהות שלכם. זוכרים שיש שם איזושהי "ספרת ביקורת"? אי פעם תהיתם מה זה אומר? Breaking news, למי שחי בחלל: זו ספרה שנמצאת שם רק כדי לוודא שכל שאר הספרות הוזנו נכון. אם תשנו ספרה אחת בתעודת הזהות, גם ספרת הביקורת תשתנה. אפילו אפשר לחשב אותה די בקלות[^1]]!
 
 יום שישי בבוקר, השעה 11:00 לפנות בוקר ואתם עוד לפני כוס התה שלכם. אתם שומעים נקישות על דלת ביתכם, ומגלים על מפתן הדלת רוכל זקן שמעוניין למכור לכם ציורים. לא הספקתם להגיד לו שאתם לא מעוניינים, וכבר הוא מספיק לשלוף מידיו את... המונה ליזה בכבודה ובעצמה!
 
@@ -45,22 +45,22 @@ direction: rtl
 יש מספר רב של שימושים מוכרים ופופולריים עבור אותם אלגוריתמי גיבוב קריפטוגרפיים. נבחן 2 מהם:
 
   1. כמו שכבר ציינו, אנחנו רוצים לוודא שדברים (קבצים, הודעות) הגיעו ממקום אחד למקום שני בלי שאף אחד "טיפל" בהם.
-  2. [הגנה על סיסמאות][2]: נדמיין שאתם רוצים להירשם לאתר מסוים ולהתחבר אליו בעתיד. זה יהיה מאוד לא אחראי מצד האתר לשמור את הסיסמה שלכם כמו שהיא, מכיוון שיש סיכוי סביר שאתם משתמשים באותה סיסמה לכמה אתרים, ואז אם יפרצו לאתר וישיגו את מסד־הנתונים שלו אתם בצרות. מה שרוב האתרים עושים זה לבצע אלגוריתם גיבוב קריפטוגרפי על הסיסמה שלכם בעת ההרשמה, ולהכניס את התוצאה למסד־הנתונים. כשתנסו להתחבר, האתר יבצע גיבוב על הסיסמה שהזנתם בטופס ההתחברות וישווה אותה עם תוצאת הגיבוב הקודמת שקיימת במסד־הנתונים.
+  2. הגנה על סיסמאות[^2]\: נדמיין שאתם רוצים להירשם לאתר מסוים ולהתחבר אליו בעתיד. זה יהיה מאוד לא אחראי מצד האתר לשמור את הסיסמה שלכם כמו שהיא, מכיוון שיש סיכוי סביר שאתם משתמשים באותה סיסמה לכמה אתרים, ואז אם יפרצו לאתר וישיגו את מסד־הנתונים שלו אתם בצרות. מה שרוב האתרים עושים זה לבצע אלגוריתם גיבוב קריפטוגרפי על הסיסמה שלכם בעת ההרשמה, ולהכניס את התוצאה למסד־הנתונים. כשתנסו להתחבר, האתר יבצע גיבוב על הסיסמה שהזנתם בטופס ההתחברות וישווה אותה עם תוצאת הגיבוב הקודמת שקיימת במסד־הנתונים.
 
 אז בהינתן שאתם לא עומדים לגנוב את המונה־ליזה בקרוב, למה זה טוב, כל השטויות האלו, ומה הקשר למנה היפנית ההיא שהוזכרה בתחילת הפוסט?
 
 ראשית נבין מה היא "מתקפת התנגשות" (Collision Attack). עכשיו כשיש לנו את כל הידע הזה, זה די פשוט להבין: זה אומר שמצאתי דרך ש"תעזור" לי, בהינתן "מחרוזת מייצגת" מסוימת, לרמות את המערכת. משמע: לייצר \*בקלות\* משהו מסוים, שאם אתן אותו לאותו אלגוריתם גיבוב קריפטוגרפי הוא יחזיר לי את אותה מחרוזת מייצגת.
 
-האלגוריתם "SHA-1" (או Secure Hash Algorithm 1) הוא אלגוריתם גיבוב קריפטוגרפי שהומצא בשנת 1993. הוא היה בשימוש שנים רבות במגוון משוגע של מערכות והייתה בו תועלת רבה, שכן אם היינו רוצים ליצור התנגשות שכזו היינו צריכים כוח חישובי משוגע, שמקביל לכוח החישוב של 12 מיליון כרטיסי מסך במשך שנה שלמה(!). למרבה הצער, כבר בשנת 2005 חוקרים הכריזו שהם מצאו "מתקפת התנגשות" שמצמצמת מעט את האפקטיביות של האלגוריתם. לאט לאט התחום התפתח, ובשנת 2014 ארגונים שונים [הכריזו][4] שהם לא יעבדו יותר עם SHA-1 לצורכי אבטחה.
+האלגוריתם "SHA-1" (או Secure Hash Algorithm 1) הוא אלגוריתם גיבוב קריפטוגרפי שהומצא בשנת 1993. הוא היה בשימוש שנים רבות במגוון משוגע של מערכות והייתה בו תועלת רבה, שכן אם היינו רוצים ליצור התנגשות שכזו היינו צריכים כוח חישובי משוגע, שמקביל לכוח החישוב של 12 מיליון כרטיסי מסך במשך שנה שלמה(!). למרבה הצער, כבר בשנת 2005 חוקרים הכריזו שהם מצאו "מתקפת התנגשות" שמצמצמת מעט את האפקטיביות של האלגוריתם. לאט לאט התחום התפתח, ובשנת 2014 ארגונים שונים הכריזו[^4] שהם לא יעבדו יותר עם SHA-1 לצורכי אבטחה.
 
-אתמול, גוגל [הכריזו][3] על אחד הגילויים המשוגעים שקרו לאחרונה בתחום: מצאנו מתקפת התנגשות מושלמת על SHA-1. מה זה אומר? זוכרים את ה־12 מיליון כרטיסי מסך במשך שנה? כן... אז... מה דעתכם על 110 כרטיסי מסך במקום?
+אתמול, גוגל הכריזו[^3] על אחד הגילויים המשוגעים שקרו לאחרונה בתחום: מצאנו מתקפת התנגשות מושלמת על SHA-1. מה זה אומר? זוכרים את ה־12 מיליון כרטיסי מסך במשך שנה? כן... אז... מה דעתכם על 110 כרטיסי מסך במקום?
 
-ואלו היו 10 דקות על קוליז'נים ופונקציות גיבוב. למי שרוצה לקרוא עוד (משוגעים, לכו לעשות דברים כייפיים), [כתבתי][5] על זה בעבר ב־DigitalWhisper. נתראה בפוסט הבא<img loading="lazy" alt="😉" src="https://lh3.googleusercontent.com/mMlO3eP8NnVoqIrPRXfDVAlfLd7tkwt-jl-x40ZhQ3MgAKIux6L1Vo_RT7c0syUELAnLoINy2j6HjHgkuPBlV5gtcXPVXvPsMKyaYRNExopb0jba1Q94m0Qyr8ao_rqec0MI95KG" width="16" height="16" /> 
+ואלו היו 10 דקות על קוליז'נים ופונקציות גיבוב. למי שרוצה לקרוא עוד (משוגעים, לכו לעשות דברים כייפיים), כתבתי[^5] על זה בעבר ב־DigitalWhisper. נתראה בפוסט הבא<img loading="lazy" alt="😉" src="https://lh3.googleusercontent.com/mMlO3eP8NnVoqIrPRXfDVAlfLd7tkwt-jl-x40ZhQ3MgAKIux6L1Vo_RT7c0syUELAnLoINy2j6HjHgkuPBlV5gtcXPVXvPsMKyaYRNExopb0jba1Q94m0Qyr8ao_rqec0MI95KG" width="16" height="16" /> 
 
 ------------
 
- [1]: [קריאה נוספת בנושא](https://he.wikipedia.org/wiki/%D7%A1%D7%A4%D7%A8%D7%AA_%D7%91%D7%99%D7%A7%D7%95%D7%A8%D7%AA) מוקדשת לכל מי שהיה בקורסים שלי ורוצה לשחזר חוויות.
- [2]: https://www.facebook.com/Yam.Mesicka/posts/10154008891258297
- [3]: https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html
- [4]: https://konklone.com/post/why-google-is-hurrying-the-web-to-kill-sha-1
- [5]: ב־[DigitalWhisper](https://www.digitalwhisper.co.il/files/Zines/0x42/DigitalWhisper66.pdf) תחת "שה־1 תמים"
+ [^1] [קריאה נוספת בנושא](https://he.wikipedia.org/wiki/%D7%A1%D7%A4%D7%A8%D7%AA_%D7%91%D7%99%D7%A7%D7%95%D7%A8%D7%AA) מוקדשת לכל מי שהיה בקורסים שלי ורוצה לשחזר חוויות.
+ [^2] כתבתי בעבר על [פונקציות גיבוב בהקשרי הגנה על סיסמאות](https://www.facebook.com/Yam.Mesicka/posts/10154008891258297)
+ [^3] גוגל הכריזו על [מציאת collision](https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html)
+ [^4] יש לגוגל סיבות די טובות [לרצות להרוג את SHA-1](https://konklone.com/post/why-google-is-hurrying-the-web-to-kill-sha-1)
+ [^5] ב־[DigitalWhisper](https://www.digitalwhisper.co.il/files/Zines/0x42/DigitalWhisper66.pdf) תחת "שה־1 תמים"
