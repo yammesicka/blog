@@ -59,8 +59,8 @@ direction: rtl
 
 ------------
 
- [^1] [קריאה נוספת בנושא](https://he.wikipedia.org/wiki/%D7%A1%D7%A4%D7%A8%D7%AA_%D7%91%D7%99%D7%A7%D7%95%D7%A8%D7%AA) מוקדשת לכל מי שהיה בקורסים שלי ורוצה לשחזר חוויות.
- [^2] כתבתי בעבר על [פונקציות גיבוב בהקשרי הגנה על סיסמאות](https://www.facebook.com/Yam.Mesicka/posts/10154008891258297)
- [^3] גוגל הכריזו על [מציאת collision](https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html)
- [^4] יש לגוגל סיבות די טובות [לרצות להרוג את SHA-1](https://konklone.com/post/why-google-is-hurrying-the-web-to-kill-sha-1)
- [^5] ב־[DigitalWhisper](https://www.digitalwhisper.co.il/files/Zines/0x42/DigitalWhisper66.pdf) תחת "שה־1 תמים"
+ [^1]: [קריאה נוספת בנושא](https://he.wikipedia.org/wiki/%D7%A1%D7%A4%D7%A8%D7%AA_%D7%91%D7%99%D7%A7%D7%95%D7%A8%D7%AA) מוקדשת לכל מי שהיה בקורסים שלי ורוצה לשחזר חוויות.
+ [^2]: כתבתי בעבר על [פונקציות גיבוב בהקשרי הגנה על סיסמאות](https://www.facebook.com/Yam.Mesicka/posts/10154008891258297)
+ [^3]: גוגל הכריזו על [מציאת collision](https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html)
+ [^4]: יש לגוגל סיבות די טובות [לרצות להרוג את SHA-1](https://konklone.com/post/why-google-is-hurrying-the-web-to-kill-sha-1)
+ [^5]: ב־[DigitalWhisper](https://www.digitalwhisper.co.il/files/Zines/0x42/DigitalWhisper66.pdf) תחת "שה־1 תמים"
