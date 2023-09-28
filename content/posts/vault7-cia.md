@@ -9,11 +9,15 @@ tags:
   - NSA
   - vault7
   - wikileaks
-  - אבטחת מידע
-  - אדוארד סנודן
-  - ארצות הברית
+  - אבטחת
+  - מידע
+  - אדוארד
+  - סנודן
+  - ארצות
+  - הברית
   - חולשות
   - פרטיות
+direction: rtl
 ---
 
 בפרויקט חדש בשם Vault7, אתר ההדלפות הגדול Wikileaks (זה שחשף בעבר מסמכים מסווגים ממלחמת עיראק, את המיילים של קלינטון, מסמכים מוועידת המפלגה הדמוקרטית ועוד פנינים בסגנון) פרסם את מה שנראה כרגע כחשיפת השנה: אלפי מסמכים וקבצים פנימיים, חלקם מסווגים ומכילים פרטים טכניים רגישים מאוד, על שיטות ההתקפה של סוכנות הביון המרכזית של ארצות הברית (ה־CIA).
@@ -41,8 +45,8 @@ tags:
 
 קישורים רלוונטיים:
 
-  * פרטים אודות ההדלפה: [https://wikileaks.org/ciav7p1/][1]
-  * ההדלפה עצמה: [https://wikileaks.org/ciav7p1/cms/index.html][2]
+  * [פרטים אודות ההדלפה][1]
+  * [ההדלפה עצמה][2]
 
- [1]: https://l.facebook.com/l.php?u=https%3A%2F%2Fwikileaks.org%2Fciav7p1%2F%3Ffbclid%3DIwAR0O6ljPMrV-PjIHDoCEFLaBT4Rag1ILBeE23qeQy_U6vM5eQEJmWvBEAPM&h=AT0m3fHTA1MFriF3-h3k5nvTzU56tCQmxUMIs3zj_85svK8IecEsze1JZKMd4trvzmzMcCGIroWSdSUvvHftS1m8OGELkC-bFYkmyPFpz-DUHCDeN0gLxNoAwLDl4NBbe2ijMO9CMg&__tn__=-UK-R&c[0]=AT0hTiF2nfQhFjUEaO-YvrtW9fh-6v3gtowCoYjntaKyYEzX1OvKxExufY2ssezqZOnF-lJu9l3Ld4CThUeMQcgpo4NQeH9_Zk3vl_5AS535izcjyvROOzfwyLRzkbZb9H0pAKOeWSMQPnxUZ6H0a752SYQ
- [2]: https://wikileaks.org/ciav7p1/cms/index.html?fbclid=IwAR1GpvTWuzVxSvActfpr_FOD6mRqfU-3uozk6CDlyO_Mf3tIZ8rr7Wxwrmk
+ [1]: https://wikileaks.org/ciav7p1/
+ [2]: https://wikileaks.org/ciav7p1/cms/index.html
